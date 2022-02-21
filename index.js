@@ -9,7 +9,7 @@ let guess_btn = document.querySelector(".guess_btn");
 
 //get a reference to the message portion
 let msg = document.querySelector(".message");
-alert(randomNumber)
+//alert(randomNumber)
 guess_btn.addEventListener("click",function(){
     if(number.value < randomNumber){
         msg.innerHTML = "Your guess is too low";
