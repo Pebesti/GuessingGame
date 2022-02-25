@@ -12,7 +12,7 @@ let guess_btn = document.querySelector(".guess_btn");
 let msg = document.querySelector(".message");
 
 let randomNumber = randy();
-alert(randomNumber)
+//alert(randomNumber)
 function guessing_game() {
         if (number.value > 0 && number.value < 100) {
 
