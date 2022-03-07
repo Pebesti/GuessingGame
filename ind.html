@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fruits.js"></script>
+</head>
+
+<body onload="updateList()">
+    <div class="container">
+
+        <ul>
+       <li class="line"><a href="index.html">Guessing game</a></li>
+       <li class="line"><a href="ind.html">Fruits</a></li>
+        </ul>
+    <!-- input tag-->
+    <input type="text" class="fruit input" required placeholder="Enter fruit name...">
+
+    <!-- input tag-->
+    <input type="text" class="fruit_emoji input" required placeholder="Enter fruit emoji...">
+
+    <button onclick="add_fruit()" class="btn">Add fruit</button>
+<br><br>
+    <!-- input tag_search  -->
+
+    <input id="searchbar" onkeyup="search_fruit()" class="input" type="text"  name="search" placeholder="Search fruits...">
+
+    <select name="" id="select" onchange="sortList()">
+        <option name="sort">Order By</option>
+        <option>Fruit Name</option>
+    </select>
+   
+    <hr>
+
+    <!-- list -->
+    <ul id='list'>
+        
+    </ul>
+</div>
+    <script>
+       
+    </script>
+</body>
+
+</html>

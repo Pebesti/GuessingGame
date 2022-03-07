@@ -42,3 +42,5 @@ console.log(randomNumber)
     }
 
 guess_btn.addEventListener("click", guessing_game)
+
+
