@@ -13,19 +13,19 @@ let msg = document.querySelector(".message");
 
 let randomNumber = randy();
 //alert(randomNumber)
-function guessing_game() {
-        if (number.value > 0 && number.value < 100) {
+function guessing_game(num = randy(), input = Number(number.value)) {
+        if (input > 0 && input < 100) {
 
-            if (number.value < randomNumber) {
+            if (input < num) {
                 msg.innerHTML = "Your guess is too low";
             }
-            else if (number.value > randomNumber) {
+            else if (input > num) {
                 msg.innerHTML = "Your guess is too high";
             }
             else {
-                msg.innerHTML = `Correct, the secret number is ${number.value}`;
+                msg.innerHTML = `Correct, the secret number is ${input}`;
                 setTimeout(function () {
-                    randomNumber = randy();
+                    num = randy();
                     msg.innerHTML = 'New game has started!';
                     number.value = "";
                 }, 5000)

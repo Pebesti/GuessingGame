@@ -26,7 +26,7 @@ localStorage.clear();
 function validate(emoji,fruit){
     const regex = /\p{Extended_Pictographic}/u;
     const fruiti = /^[a-zA-Z]+$/;
-    return fruiti.test(fruit) && regex.test(emoji);
+    return fruiti.test(fruit);
 }
 
 function add_fruit() {

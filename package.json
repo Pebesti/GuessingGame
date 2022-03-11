@@ -1,0 +1,23 @@
+{
+  "name": "Guessing_Game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pebesti/GuessingGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pebesti/GuessingGame/issues"
+  },
+  "homepage": "https://github.com/Pebesti/GuessingGame#readme",
+  "dependencies": {
+    "mocha": "^9.2.1"
+  }
+}
